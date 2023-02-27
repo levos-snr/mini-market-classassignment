@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mini-market</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    Mini market
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#categories" class="nav__link">Categories</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#shop" class="nav__link">Shop</a>
+                        </li>
+
+        
+
+                        <li class="nav__item">
+                            <a href="#deals" class="nav__link">Deals</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Cart</a>
+                        <a href="#" class="button button--ghost">Account</a>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/two.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/twenty.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Labu “Reiza”</h4>
+                                        <span class="home__details-subtitle">The Living Pumpkin</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 Best-Selling Products</h3>
+                                    <h1 class="home__title">Big selection<br> small prices</h1>
+                                    <p class="home__description">Welcome to our supermarket, where we strive to be your one-stop-shop for everything you need! Whether you're looking for fresh produce, pantry staples, household essentials, or the latest electronics, we've got you covered. Our wide selection of products is carefully curated to meet the needs of every customer, from busy families to health-conscious shoppers to tech enthusiasts. </p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Shop Now</a>
+                                        <a href="#" class="button--link button--flex">Track your Cart <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 2 -->
+                    
+
+                        <!-- HOME SLIDER 3 -->
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category " id="categories">
+                <h2 class="section__title"> Categories</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/category1-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Diary Products</h3>
+                        <p class="category__description">Nutritious and delicious dairy products for a happy you.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category2-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Bakery Products</h3>
+                        <p class="category__description">Satisfy your sweet tooth with our bakery treats.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category3-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Household Essentials</h3>
+                        <p class="category__description">"Keeping your home clean and comfortable, our mission."
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+           
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="shop">
+                <h2 class="section__title">Shop</h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/two.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Coke</h3>
+                        <span class="trick__subtitle">Beverage </span>
+                        <span class="trick__price">Ksh.70</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/three.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Pembe</h3>
+                        <span class="trick__subtitle">Flour</span>
+                        <span class="trick__price">Ksh.200</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/four.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Coke</h3>
+                        <span class="trick__subtitle">Beverage </span>
+                        <span class="trick__price">Ksh.120</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/five.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Sprite</h3>
+                        <span class="trick__subtitle">Beverage </span>
+                        <span class="trick__price">Ksh.150</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/six.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Fanta</h3>
+                        <span class="trick__subtitle">Beverage </span>
+                        <span class="trick__price">Ksh.120</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/seven.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Fanta</h3>
+                        <span class="trick__subtitle">Beverage </span>
+                        <span class="trick__price">Ksh.120</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">50% Discount <br> On New Products</h2>
+                        <a href="#" class="button">Go to new</a>
+                    </div>
+
+                    <img src="assets/img/twentyone.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="deals">
+                <h2 class="section__title">New Deals</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">10 left</div>
+                                <img src="assets/img/fourteen.png" alt="" class="new__img">
+                                <h3 class="new__title">Fresh Fry</h3>
+                                <span class="new__subtitle">Cooking Oil</span>
+                                
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.1200</span>
+                                    <span class="new__discount">Ksh.1500</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/nine.png" alt="" class="new__img">
+                                <h3 class="new__title">Sprite</h3>
+                                <span class="new__subtitle">Beverage</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.180</span>
+                                    <span class="new__discount">Ksh.200</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/eleven.png" alt="" class="new__img">
+                                <h3 class="new__title">Sunlight</h3>
+                                <span class="new__subtitle">Soap</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.250</span>
+                                    <span class="new__discount">Ksh.275</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/twelve.png" alt="" class="new__img">
+                                <h3 class="new__title">Dola</h3>
+                                <span class="new__subtitle">Flour</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.180</span>
+                                    <span class="new__discount">Ksh.200</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/sixteen.png" alt="" class="new__img">
+                                <h3 class="new__title">Rina</h3>
+                                <span class="new__subtitle">Cooking Oil</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.450</span>
+                                    <span class="new__discount">Ksh.500</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/fifteen.png" alt="" class="new__img">
+                                <h3 class="new__title">Famila</h3>
+                                <span class="new__subtitle">Flour</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Ksh.250</span>
+                                    <span class="new__discount">Ksh.300</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            Mini market
+                        </a>
+
+                        
+                        <div class="footer__social">
+                            <a href="https://www.tiktok.com/rosekanini" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-tiktok'></i>
+                            </a>
+                            <a href="https://www.instagram.com/a.n.s.u__/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/levos-nsnr" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Services</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Discounts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Shipping mode</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Company</h3>
+                        
+                        <ul class="footer__links"
+                       <li>                                <a href="#" class="footer__link">Our mision</a>
+                       </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; Mini market. All rigths reserved</span>
+
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
