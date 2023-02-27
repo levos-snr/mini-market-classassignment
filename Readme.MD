@@ -1,6 +1,6 @@
 This is a README file that provides information about a project or application. The purpose of this file is to help users understand what the project does, how to use it, and any other important details they need to know.
 
-## Installation
+## Installation.
 
 To install this project, follow these steps:
 
