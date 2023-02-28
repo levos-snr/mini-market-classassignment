@@ -157,13 +157,14 @@ button{
   display: flex;
   align-items: center;
   column-gap: .5rem;
-  font-weight: var(--font-medium);
-  margin-right: 15px;
+  font-weight: 300px;
+  margin-right: 10px;
 }
 
 .nav__logo-img{
-  width: 80px;
+  width: 70px;
   height: 70px;
+  
 }
 
 .nav__link,
